@@ -1,0 +1,91 @@
+/* General styles */
+@font-face {
+    font-family: strawberryRegular;
+    src: url(Imagenes/StrawberryRegular.ttf);
+}
+@font-face {
+    font-family: magicalFeather;
+    src: url(Imagenes/Magical\ Feather.ttf);
+}
+body {
+    max-width: 1280px;
+    font-family: "strawberryRegular";
+    font-size: larger;
+}
+#logo   {
+    width: 300px ;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15%;
+}
+h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: "magicalFeather";
+}
+header, footer{
+    background-color: rgba(247, 213, 183, 0.795);
+    color: rgb(61, 29, 6);
+            }
+nav{background-color: rgba(153, 252, 219, 0.932);
+    padding: 5px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: rgba(247, 213, 183, 0.795);
+    }
+a:link {
+    color: rgb(61, 29, 6);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(61, 29, 6);
+    text-decoration: none;
+}
+a:hover{
+color: salmon;
+}
+footer{
+    text-align: center;
+}  
+h3{
+    color: lightseagreen;
+    font-family: "magicalFeather";
+}
+p{
+    color: rgb(61, 29, 6);
+    text-align: justify;
+}
+
+/* index styles */
+#banner{
+    width: 1280px;
+}
+#cuadro1, #cuadro2  {    
+    list-style-type: none;
+    display: inline-block;
+    background-color: coral;
+    border: 3px solid rgb(61, 29, 6);
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    font-family: "straberryRegular";
+    color: rgb(61, 29, 6);
+    }
+
+/* biografia */
+#myself{
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 10%;
+}
+button{
+    background-color: mediumaquamarine;
+    color: rgb(61, 29, 6);
+    border-radius: 10%;
+    font-family: strawberryRegular;
+}
+/* galeria */
+img{
+    width: 300px;
+}
