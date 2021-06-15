@@ -9,6 +9,7 @@
 }
 body {
     max-width: 1280px;
+    margin: 0 auto;
     font-family: "strawberryRegular";
     font-size: larger;
 }
