@@ -1,11 +1,11 @@
 /* General styles */
 @font-face {
     font-family: strawberryRegular;
-    src: url(Imagenes/StrawberryRegular.ttf);
+    src: url(Fonts/StrawberryRegular.ttf);
 }
 @font-face {
     font-family: magicalFeather;
-    src: url(Imagenes/Magical\ Feather.ttf);
+    src: url(Fonts/MagicalFeather.ttf);
 }
 body {
     max-width: 1280px;
